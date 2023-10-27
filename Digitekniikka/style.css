@@ -32,3 +32,28 @@
     .sidebar {padding-top: 15px;}
     .sidebar a {font-size: 18px;}
   }
+
+  .sidebar {
+      width: 25%;
+      float: left;
+  }
+
+  .content {
+      margin-left: 25%;
+  }
+
+  img {
+      float: right;
+      margin: 10px;
+  }
+
+  .container {
+    text-align: center; 
+    display: flex;
+    align-items: center; 
+    height: 100vh; 
+}
+
+.centered-h1 {
+    margin: 0 auto; 
+}
