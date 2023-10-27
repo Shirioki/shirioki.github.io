@@ -24,7 +24,7 @@
   }
 
   .main {
-    margin-left: 160px; /* Same as the width of the sidenav */
+    margin-left: 160px;
     padding: 0px 10px;
   }
   
@@ -51,7 +51,7 @@
     text-align: center; 
     display: flex;
     align-items: center; 
-    height: 100vh; 
+    height: 10vh; 
 }
 
 .centered-h1 {
