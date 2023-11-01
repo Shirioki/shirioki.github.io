@@ -116,3 +116,18 @@
 .list {
     flex: 1;
 }
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 255);
+}
+
+tr {
+    background-color: rgba(66, 159, 105, 0.123);
+    border: 2px solid rgb(0, 0, 0);
+}
+
+td, th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 5px;
+}
