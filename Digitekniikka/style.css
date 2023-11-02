@@ -1,3 +1,27 @@
+body {
+  font-size: 16px;
+}
+
+@media (max-width: 768px) {
+
+  body {
+      font-size: 14px;
+  }
+
+  .buttons {
+      margin-left: 10%; 
+  }
+
+  .sidebar {
+      width: 60%; 
+      margin-right: 10px;
+  }
+
+  .gallery img {
+      max-width: 100%;
+  }
+}
+
     body {
     background-color: #bababa;
     }
@@ -6,7 +30,7 @@
   font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
 }
   .buttons {
-    margin-left: 27%;
+    margin-left: 30%;
 }
 
 .button-89 {
@@ -138,5 +162,5 @@ td, th {
 
 .gallery img {
   margin: 10px;
-  max-width: 300px; /* Säädä kuvien maksimileveys tarpeen mukaan */
+  max-width: 300px;
 }
